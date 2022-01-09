@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>骑猪少年</title>
+</head>
+<body>
+        <div class="home">
+            <div class="content">
+                <div class="stars"></div>
+                <img class="bgc" src="./qing.png" width="1600px" height="800px" alt="">
+                <h3 class="title">骑猪少年</h3>
+                <h3 class="titles">永远积极向上，永远热泪盈眶，永远豪情满怀，永远坦坦荡荡</h3>
+                <h3 class="titless">河南&nbsp;安阳</h3>
+                <img class="icon" src="./jiantou.png" alt="">
+                <div class='ribbon'>
+                    <a href='./index.html'><span>Home</span></a>
+                    <a href='./about.html'><span>About</span></a>
+                    <a href='./form.html'><span>Form</span></a>
+    
+                </div>
+    
+            </div>
+            <div class="icons">
+                <div class="icons_items">
+                    <img class="icons_items_imgs" src="./school.png" alt="">
+                    <span>教学楼是我们每天必去取经之地</span>
+                </div>
+                <div class="icons_items">
+                    <img class="icons_items_imgs" src="./canting.png" alt="">
+                    <span>每天都要在食堂里面纠结到底吃什么</span>
+                </div>
+                <div class="icons_items">
+                    <img class="icons_items_imgs" src="./fengjing.png" alt="">
+                    <span>午饭过后可以躺着休息晒晒太阳</span>
+                </div>
+                <div class="icons_items">
+                    <img class="icons_items_imgs" src="./yewan.png" alt="">
+                    <span>忙碌的一天结束啦爬上小床跟世界说晚安</span>
+                </div>
+            </div>
+            <div class="introduce">
+                <div class="introduce_item">
+                    <img class="introduce_item_img" src="./p1.jpg" alt="">
+                    <span class="introduce_item_title">如今的我，谈不上幸福，也谈不上不幸，一切都会过去的。在所谓的“人世间”
+                        摸爬滚打至今，我唯一愿意视为真理的，就只有一句话，一切都会过去的--太宰治《人间失格》
+                    </span>
+    
+                </div>
+                <div class="introduce_item">
+    
+                    <span class="introduce_item_titles">头顶灰白的天空，翻过尘土飞扬的马路，来到了那个世界，守望着远方的月亮，
+                        守候着脚下这片土地，也用他的人格守候着心中的梦--毛姆《月亮与六便士》</span>
+                    <img class="introduce_item_img" src="./p2.jpg" alt="">
+                </div>
+                <div class="introduce_item">
+                    <img class="introduce_item_img" src="./p3.jpg" alt="">
+                    <span class="introduce_item_title">猫清晰而冷漠的审视着这个世相百态、悲欢离合的世界。在猫的视线里，荒唐与
+                        孤寂充斥着人生，人类除了虚伪和自私，几乎一无所有。--夏目漱石《我是猫》</span>
+                </div>
+                <div class="introduce_item">
+                    <span class="introduce_item_titles">生命可以归结为一种简单的选择，要么忙于生存，要么赶着去死--《肖申克的救赎》</span>
+                    <img class="introduce_item_img" src="./p4.jpg" alt="">
+                </div>
+            </div>
+            <audio autoplay="autoplay" id="audio" loop="loop">
+                    <source src="./video/music.mp3" type="audio/MP3">
+                   
+            </audio>
+            <img class="music_img" src="./img/music_img.png" alt="">
+        </div>
+    
+    <script>
+        let mucics = document.getElementById('audio')
+        document.body.addEventListener('mousemove', function() {
+            setTimeout(() => {
+                mucics.play();
+            }, 2000);
+        }, false);
+    </script>
+    
+    </html>
+    
+</body>
+</html>

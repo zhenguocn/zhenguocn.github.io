@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./form.css">
+    <title>骑猪少年</title>
+</head>
+<body>
+    <div class="form">
+        <h3 class="form_tit">做一个积极乐观的人,好好读书,认真洗脸,学业有成,热爱生活</h3>
+        <img class="form_bgc" src="./form.jpg" width="1600px" height="800px" alt="">
+        <div class='ribbon'>
+            <a href='./index.html'><span>Home</span></a>
+            <a href='./about.html'><span>About</span></a>
+            <a href='./form.html'><span>Form</span></a>
+        </div>
+        <div class="submit">
+            <span class="form_title">欢迎留言</span>
+            <div class="form_input">
+                <span>昵称：</span>
+                <input class="inputs" type="text" value="">
+            </div>
+            <div class="form_input">
+                <span>标题:</span>
+                <input class="inputs" type="text" value="">
+            </div>
+            <div class="form_input">
+                <span>内容：</span>
+                <input class="inputs" type="text" value="">
+            </div>
+            <div class="btn_submit">
+            <input class="btn" onclick="handleclick()" value="留言">
+            <script>
+                function handleclick(){
+                    alert("留言成功");
+                }
+            </script>
+            </div>
+</body>
+</html>
